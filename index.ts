@@ -16,30 +16,28 @@
 
 // -----------------------------------------------------------------------------------
 
-// import inquirer from "inquirer"
+import inquirer from "inquirer"
 
-// let answers = async () => await  inquirer.prompt([{
-//     name:"username",
-//     type: "String",
-//     message: "What is your name?",
-//     },
-//     {
+let answers = async () => await  inquirer.prompt([{
+    name:"username",
+    type: "String",
+    message: "What is your name?",
+    },
+    {
 
-//     name :"email",
-//     type: "String",
-//     message :"What is your email?",
-//     },
-//     {
-//     name: "contact",
-//     type: "number",
-//     message: "What is your number?",
-// }])
+    name :"email",
+    type: "String",
+    message :"What is your email?",
+    },
+    {
+    name: "contact",
+    type: "number",
+    message: "What is your number?",
+}])
     
-// console.log(answers)
+console.log(answers)
   
-import chalk from "chalk";
 
-console.log(chalk.red("hello world"))
 
 
 
